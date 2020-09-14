@@ -1,2 +1,4 @@
-# samantha-louise
-Samantha Louise Artist Website
+# Samantha Louise
+Samantha Louise (Sam Cappell) Artist Website
+
+
