@@ -17,7 +17,7 @@ To make a user-friendly React-App site to find information on Sam's artistic car
 |    Header    | class |   n   |   n   | _The header will contain the navigation and logo._               |
 |  Navigation  | class |   n   |   n   | _The navigation will provide a link to each of the sections._       |
 |  About    |   class    |   n   |   n   | _This section will render Sam's bio._      |
-| Music     |   class    |   n   |   n    | _This section will show Sam's music either in mp3's or video_        |
+| Performances     |   functional    |   y   |   n    | _This section will show Sam's music either in mp3's or video_        |
 | Contact     |  functional |  y |  n |  _This section will provide a way for the user to have further inquiry into Sam's schedule for bookings or sessions._ |
 |    Footer    | functional |   n   |   n   | _The footer will showcase Sam's socials and other links to her performance work._ |
 
