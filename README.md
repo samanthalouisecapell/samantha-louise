@@ -39,3 +39,5 @@ To make a user-friendly React-App site to find information on Sam's artistic car
 #### Change Log 
 
 (9/23) - Created React App and Started Architecture
+(9/28) - Set up Layout Features including Header and Footer
+(10/1) - implemented About section and set up App section
