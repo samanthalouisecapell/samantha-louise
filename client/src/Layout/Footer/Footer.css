@@ -1,0 +1,12 @@
+nav.footer ul.socials{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav.footer ul.socials li{
+    list-style-type: none;
+}
+
+nav.footer ul.socials li a{
+    text-decoration: none;
+}

@@ -1,13 +1,15 @@
 import React from "react"
+import { Component } from "react"
 import Link from "react-router-dom"
+import './Header.css'
 
-class Header {
+class Header extends Component{
 
 
     render() {
         return(
             <>
-            <nav>
+            <nav className="header">
                  <h1 className="title">Samantha Louise</h1>
                  <ul className="navigation">
                      <li>About</li>

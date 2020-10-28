@@ -3,19 +3,22 @@ import Footer from "./Footer/Footer"
 import Header from "./Header/Header"
 
 const Layout = (props) => {
-    return(
+    return (
         <>
-           <div className="layout">
-        <Header />
-        <div className="layout-children">
-            {props.children}
-        </div>
-        <Footer />
-    </div>
-    
+            <div className="layout">
+                <header>
+                    <Header/>
+                </header>
+                <div className="layout-children">
+                    {props.children}
+                </div>
+                <footer>
+                    <Footer/>
+                </footer>
+            </div>
         </>
     )
- 
+
 }
 
 export default Layout

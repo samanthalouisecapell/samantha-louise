@@ -1,0 +1,14 @@
+nav.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav.header ul.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.header ul.navigation > li {
+    list-style-type: none;
+    padding: 10px;
+}

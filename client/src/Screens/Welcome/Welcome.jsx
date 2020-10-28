@@ -1,5 +1,7 @@
 import React from "react"
 import { useState } from "react"
+import Layout from "../../Layout/Layout"
+import './Welcome.css'
 
 export default function Welcome(){
     const [status, toggleButton] = useState({
@@ -21,11 +23,11 @@ export default function Welcome(){
                 </div>
             )
             : (
-                <Layout>
+            <Layout>
                 <div className="welcome">
                     <h1>Explore</h1>
                 </div>
-                </Layout>
+            </Layout>
             )}
              </>
         )
