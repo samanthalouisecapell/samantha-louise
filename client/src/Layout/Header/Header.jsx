@@ -1,18 +1,16 @@
 import React from "react"
 import { Component } from "react"
-import Link from "react-router-dom"
+import {Link, withRouter } from "react-router-dom"
 import './Header.css'
 
 class Header extends Component{
-
-
     render() {
         return(
             <>
             <nav className="header">
-                 <h1 className="title">Samantha Louise</h1>
+                 <h1 className="title"><Link to="/">Samantha Louise</Link></h1>
                  <ul className="navigation">
-                     <li>About</li>
+                     <li><Link to="/about">About</Link></li>
                      <li>Media</li>
                      <li>Recordings</li>
                      <li>Tour</li>
@@ -24,4 +22,4 @@ class Header extends Component{
     }
 }
 
-export default Header
+export default withRouter(Header)

@@ -7,7 +7,7 @@ import Welcome from './Screens/Welcome/Welcome';
 function App() {
   return (
     <div className="App">
-      <Route path="/" component={Welcome}/>
+      <Route exact path="/" component={Welcome}/>
       <Route exact path="/about" component={About}/>
     </div>
   );
