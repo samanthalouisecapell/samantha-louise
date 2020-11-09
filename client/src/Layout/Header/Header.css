@@ -3,6 +3,11 @@ nav.header{
     justify-content: space-evenly;
 }
 
+nav.header h1.title{
+    font-size: 30px;
+    font-family: petit formal script;
+}
+
 nav.header ul.navigation{
     display: flex;
     justify-content: space-between;
@@ -10,5 +15,6 @@ nav.header ul.navigation{
 
 nav.header ul.navigation > li {
     list-style-type: none;
-    padding: 10px;
+    padding: 20px;
+    font-family: roboto;
 }

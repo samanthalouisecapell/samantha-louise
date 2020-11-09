@@ -1,16 +1,27 @@
 div.front{
-    margin: 50% auto;
+    margin: 40% auto;
 }
 
 div.front > h1{
-    margin: 20px auto;
+    margin: 25px auto;
     text-align: center;
+    font-family: petit formal script;
 }
 
 
 div.front > button{
     display: block;
     margin: 0 auto;
+    border: none;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    font-family: roboto;
+    transition: all 2s;
+}
+
+div.front > button:hover{
+    transform: scale(1.1);
 }
 
 div.welcome{

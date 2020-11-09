@@ -1,0 +1,12 @@
+div.media h1{
+    text-align: center;
+    font-family: dosis;
+}
+
+div.youtube-map{
+    margin: 5% auto;
+}
+
+div.youtube-clip{
+    display: inline;
+}

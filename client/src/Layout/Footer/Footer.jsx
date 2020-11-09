@@ -8,11 +8,11 @@ class Footer extends Component{
             <>
             <nav className="footer">
                 <ul className="socials">
-                    <li><a href="#">YouTube</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Email</a></li>
+                    <li><a href="#" style={{textDecoration: "none", color: "black"}}>YouTube</a></li>
+                    <li><a href="#" style={{textDecoration: "none", color: "black"}}>Instagram</a></li>
+                    <li><a href="#" style={{textDecoration: "none", color: "black"}}>Facebook</a></li>
+                    <li><a href="#" style={{textDecoration: "none", color: "black"}}>Twitter</a></li>
+                    <li><a href="#" style={{textDecoration: "none", color: "black"}}>Email</a></li>
                 </ul>
             </nav>
             </>
