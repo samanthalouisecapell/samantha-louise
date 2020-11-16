@@ -1,12 +1,26 @@
+body{
+    position: absolute;
+}
+
+nav.footer{
+    position: fixed;
+    bottom: -4%;
+    width: 100%;
+}
+
 nav.footer ul.socials{
+    height: 75px;
     display: flex;
     justify-content: space-evenly;
+    background-color: rgba(231, 202, 39, 0.5);
 }
 
 nav.footer ul.socials li{
     list-style-type: none;
+    padding: 30px;
 }
 
 nav.footer ul.socials li a{
     text-decoration: none;
+    font-family: dosis;
 }

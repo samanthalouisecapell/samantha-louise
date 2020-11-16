@@ -1,6 +1,7 @@
 nav.header{
     display: flex;
     justify-content: space-evenly;
+    background-color: rgba(94, 155, 94, 0.5);
 }
 
 nav.header h1.title{

@@ -15,7 +15,7 @@ export default function Welcome(){
     }
 
         return(
-            <>
+            <div className="cover">
             {status.pressed === false ? (
                  <div className="front">
                 <h1>Samantha Louise</h1>
@@ -23,13 +23,15 @@ export default function Welcome(){
                 </div>
             )
             : (
-            <Layout>
+                <div className="main-menu">
+                <Layout>
                 <div className="welcome">
                     <h1>Explore</h1>
                 </div>
-            </Layout>
+                </Layout>
+                 </div>
             )}
-             </>
+             </div>
         )
     }
 
