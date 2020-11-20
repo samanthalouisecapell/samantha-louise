@@ -40,5 +40,13 @@ div.front > button:hover{
 }
 
 div.welcome{
-    margin: 0 auto;
+    border-radius: 20%;
+    height: 200px;
+    width: 400px;
+    margin: 25% auto;
+    background-color: rgba(255,255,255,0.2)
+}
+
+div.welcome > h1, div.welcome > p{
+    text-align: center;
 }

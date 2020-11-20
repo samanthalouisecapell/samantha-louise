@@ -27,6 +27,7 @@ export default function Welcome(){
                 <Layout>
                 <div className="welcome">
                     <h1>Explore</h1>
+                    <p>The Latest in Sam's World</p>
                 </div>
                 </Layout>
                  </div>
