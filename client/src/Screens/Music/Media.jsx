@@ -23,7 +23,7 @@ export default function Media() {
         <div className="media">
         <Layout>
         <h1>Performances</h1>
-        <div className="youtube-map">
+        <div className="youtube-map" style={{display: "flex"}, {flexWrap: "wrap"}}>
         {videos.map(youtube => 
             <div className="youtube-clip">
             <h2 onClick={highlightVideo}>{youtube.title}</h2>
