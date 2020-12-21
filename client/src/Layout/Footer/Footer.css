@@ -9,7 +9,7 @@ nav.footer{
 }
 
 nav.footer ul.socials{
-    height: 75px;
+    height: 100px;
     display: flex;
     justify-content: space-evenly;
     background-color: rgba(44, 90, 58, 0.5);

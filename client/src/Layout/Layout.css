@@ -8,3 +8,7 @@ div.layout > header{
     /* z-index: 100;
     top: -50; */
 }
+
+footer{
+    padding-top: 5px;
+}
