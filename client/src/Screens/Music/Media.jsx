@@ -23,12 +23,12 @@ export default function Media() {
         <div className="media">
         <Layout>
         <h1>Performances</h1>
-        <div className="youtube-map" style={{display: "flex"}, {flexWrap: "wrap"}}>
+        <div className="youtube-map" >
         {videos.map(youtube => 
             <div className="youtube-clip">
-            <h2 onClick={highlightVideo}>{youtube.title}</h2>
+            <h2 onClick={highlightVideo} style={{textAlign: "center"}}>{youtube.title}</h2>
             <ReactPlayer url={youtube.link}/>
-            <h5>{youtube.details}</h5>
+            <h5 style={{textAlign: "center"}}>{youtube.details}</h5>
             </div>
             )}
         </div>
