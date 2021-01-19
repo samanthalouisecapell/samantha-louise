@@ -6,6 +6,7 @@ import './About.css'
 class About extends Component {
     render() {
         return (
+            <body className="newpic">
             <Layout>
                 <div className="about">
                     <h2>About Samantha Louise</h2>
@@ -14,6 +15,7 @@ class About extends Component {
                     <p className="bio">Upon graduating, Samantha moved back to Seattle for a period of time and then on to Bloomington, Indiana where she currently resides. She composes contemporary music inspired by both Black American Music theory as well as popular music trends, and looks at vocalizing as a means of communicating beauty and perspective.</p>
                 </div>
             </Layout>
+            </body>
         )
     }
 }

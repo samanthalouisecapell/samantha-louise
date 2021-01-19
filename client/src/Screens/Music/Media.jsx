@@ -25,7 +25,7 @@ export default function Media() {
         <h1>Performances</h1>
         <div className="youtube-map" >
         {videos.map(youtube => 
-            <div className="youtube-clip">
+            <div className="youtube-clip" width="50%" height="50%">
             <h2 onClick={highlightVideo} style={{textAlign: "center"}}>{youtube.title}</h2>
             <ReactPlayer url={youtube.link}/>
             <h5 style={{textAlign: "center"}}>{youtube.details}</h5>

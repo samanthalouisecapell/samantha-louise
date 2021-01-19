@@ -15,6 +15,7 @@ export default function Welcome(){
     }
 
         return(
+            <body>
             <div className="cover">
             {status.pressed === false ? (
                  <div className="front">
@@ -33,6 +34,7 @@ export default function Welcome(){
                  </div>
             )}
              </div>
+             </body>
         )
     }
 

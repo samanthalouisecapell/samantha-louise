@@ -1,13 +1,20 @@
 import React from "react"
+import { Component } from "react"
 import Layout from "../../Layout/Layout"
 import "./Performance.css"
 
-export default function Tour() {
+class Tour extends Component{
+    render() {
     return(
-        <div className="tour">
+        <body className="tourpic">
         <Layout>
+        <div className="tour">
         <h2>There are no current tour dates. Stay tuned for future performances!</h2>
-        </Layout>
         </div>
-    )
+        </Layout>
+        </body>
+         )
+    }
 }
+
+export default Tour

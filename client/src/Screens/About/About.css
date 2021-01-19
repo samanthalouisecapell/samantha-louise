@@ -1,4 +1,13 @@
+body.newpic{
+    background-image: url(https://res.cloudinary.com/dkhiieq9p/image/upload/v1611091384/4a_uvzw8j.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 div.about{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20%;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
     margin: 10% auto;
 }
 

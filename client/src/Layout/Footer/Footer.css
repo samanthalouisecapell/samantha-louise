@@ -17,10 +17,15 @@ nav.footer ul.socials{
 
 nav.footer ul.socials li{
     list-style-type: none;
-    padding: 30px;
+    padding: 20px;
 }
 
 nav.footer ul.socials li a{
     text-decoration: none;
     font-family: dosis;
+}
+
+img.icon{
+    margin-top: -10px;
+    height: 75px;
 }

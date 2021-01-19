@@ -2,13 +2,6 @@ body{
     position: relative;
 }
 
-div.layout > header{
-    margin-bottom: 5%;
-    /* position: fixed;
-    /* z-index: 100;
-    top: -50; */
-}
-
 footer{
     padding-top: 5px;
 }

@@ -1,7 +1,65 @@
-form.contact-form{
-    height: 200px;
+body.contactpic{
+    background-image: url(https://res.cloudinary.com/dkhiieq9p/image/upload/v1605556191/5_d17keq.jpg)
+}
+
+div.contact-form{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10%;
+    height: 400px;
     width: 40%;
+    margin: 100px auto;
+}
+
+div.contact-form h1{
+    text-align: center;
+}
+
+div.contact-form form.form{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+div.contact-form form.form label.text-muted{
+    margin: 15px;
+}
+
+div.contact-form form.form .text-primary{
+    width: 250px;
+    margin: 15px;
+}
+
+div.contact-form form.form .text-primary:nth-of-type(3){
+    width: 500px;
+}
+
+input.text-primary.form-control{
+    width: 60%;
+}
+
+div.form-group{
+    display: flex;
+    margin: 0 auto;
+}
+
+button.btn.btn-secondary{
+    font-family: roboto;
+    font-size: 120x;
+    color: rgba(255, 255, 255, 1);
+    height: 40px;
+    width: 100px;
+    background-color: rgba(38, 88, 59, 0.5);
+    border: none;
+    margin: 5px 200px;
+    transition: all 2s;
+}
+
+textarea.text-primary.form-control{
+    height: 100px;
+    width: 200px;
+}
+
+button.btn.btn-secondary:hover{
+    background-color: rgba(25, 51, 36, 1);
 }
