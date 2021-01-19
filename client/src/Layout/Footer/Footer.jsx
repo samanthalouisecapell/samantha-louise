@@ -8,10 +8,10 @@ class Footer extends Component{
             <>
             <nav className="footer">
                 <ul className="socials">
-                    <li><a href="#" style={{textDecoration: "none", color: "black"}}><img className="icon" src="https://res.cloudinary.com/dkhiieq9p/image/upload/v1611084962/Youtube-Splash-Icon-PNG-715x715_oetzwb.png"></img></a></li>
-                    <li><a href="#" style={{textDecoration: "none", color: "black"}}><img className="icon" src="https://res.cloudinary.com/dkhiieq9p/image/upload/v1611085806/PngItem_1500145_psvxm8.png"></img></a></li>
-                    <li><a href="#" style={{textDecoration: "none", color: "black"}}><img className="icon" src="https://res.cloudinary.com/dkhiieq9p/image/upload/v1588107364/58f4723d8f23906bdcb058604075ad2a_zredoo.png"></img></a></li>
-                    <li><a href="#" style={{textDecoration: "none", color: "black"}}><img className="icon" src="https://res.cloudinary.com/dkhiieq9p/image/upload/v1588107413/112-gmail_email_mail-512_yi0luq.webp"></img></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCNI5psXqpTEYpFEMZflXfaA/videos" style={{textDecoration: "none", color: "black"}}><img className="icon" src="https://res.cloudinary.com/dkhiieq9p/image/upload/v1611096284/Youtube-Splash-Icon-PNG-715x715_imzvmr.png"></img></a></li>
+                    <li><a href="https://www.instagram.com/samanthalcapell/" style={{textDecoration: "none", color: "black"}}><img className="icon" src="https://res.cloudinary.com/dkhiieq9p/image/upload/v1611096286/res-console.cloudinary_smwos5.png"></img></a></li>
+                    <li><a href="https://www.facebook.com/capellsamantha" style={{textDecoration: "none", color: "black"}}><img className="icon" src="https://res.cloudinary.com/dkhiieq9p/image/upload/v1611096289/res-console.cloudinary-1_b5dh0b.png"></img></a></li>
+                    <li><a href="samanthacapell@gmail.com" style={{textDecoration: "none", color: "black"}}><img className="icon" src="https://res.cloudinary.com/dkhiieq9p/image/upload/v1611096247/kisspng-email-computer-icons-logo-clip-art-computer-e-mail-cliparts-5aadd733460724.5480821115213422592868_h3exwi.png"></img></a></li>
                 </ul>
             </nav>
             </>
