@@ -1,6 +1,7 @@
 import React from "react"
 import { useState } from "react"
 import Layout from "../../Layout/Layout"
+import {Link, withRouter} from "react-router-dom"
 import './Welcome.css'
 
 export default function Welcome(){
@@ -20,7 +21,7 @@ export default function Welcome(){
             {status.pressed === false ? (
                  <div className="front">
                 <h1>Samantha Louise</h1>
-                <button onClick={exploreSam}>Enter</button>
+                <button onClick={exploreSam}><Link to="/home" style={{textDecoration: "none", color: "black"}}>Enter</Link></button>
                 </div>
             )
             : (

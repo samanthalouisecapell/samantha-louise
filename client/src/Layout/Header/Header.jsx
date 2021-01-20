@@ -8,7 +8,7 @@ class Header extends Component{
         return(
             <>
             <nav className="header">
-                 <h1 className="title"><Link to="/" style={{textDecoration: "none", color: "black"}}>Samantha Louise</Link></h1>
+                 <h1 className="title"><Link to="/home" style={{textDecoration: "none", color: "black"}}>Samantha Louise</Link></h1>
                  <ul className="navigation">
                      <li><Link to="/about" style={{textDecoration: "none", color: "black"}}>About</Link></li>
                      <li><Link to="/media" style={{textDecoration: "none", color: "black"}}>Media</Link></li>

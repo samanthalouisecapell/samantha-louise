@@ -9,6 +9,10 @@ nav.header{
 nav.header h1.title{
     font-size: 30px;
     font-family: petit formal script;
+    margin: 2% 2%;
+    background-color: transparent;
+    box-shadow: none;
+    width: 30%;
 }
 
 nav.header ul.navigation{

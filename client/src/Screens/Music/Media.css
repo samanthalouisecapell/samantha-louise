@@ -1,21 +1,29 @@
 div.media h1{
     text-align: center;
-    font-family: dosis;
+    font-family: raleway;
+    color: rgba(98, 150, 116, 1);
+    background-color: rgba(24, 31, 26, 0.8);
+    border-radius: 30%;
+    box-shadow: 10px 10px 15px 5px rgba(24, 31, 26, 0.8);
+    width: 20%;
+    margin: 2% auto;
 }
 
 div.youtube-map{
     margin: 5% auto;
-    height: 90%;
-    width: 97%;
+    height: 85%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 div.youtube-clip{
-   margin: 10px;
+
+   width: 50%;
+   margin: 0.5%;
    background-color: rgba(150, 219, 176, 0.5);
    border-radius: 20%;
-   padding: 10px;
+   padding: 9px;
 }
