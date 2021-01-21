@@ -8,6 +8,7 @@ class Home extends Component{
         return(
             <>
               <div className="main-menu">
+              <img className="koru" src="https://res.cloudinary.com/dkhiieq9p/image/upload/v1611238743/sbt92grll1u24s4ebpba423a85_udd8vp.png"></img>
                 <Layout>
                 <div className="welcome">
                     <h1>Explore</h1>

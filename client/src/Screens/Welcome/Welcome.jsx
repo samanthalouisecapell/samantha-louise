@@ -15,8 +15,8 @@ export default function Welcome(){
         })
     }
 
-        return(
-            <body>
+        return(<>
+                <img className="koru" src="https://res.cloudinary.com/dkhiieq9p/image/upload/v1611238743/sbt92grll1u24s4ebpba423a85_udd8vp.png"></img>
             <div className="cover">
             {status.pressed === false ? (
                  <div className="front">
@@ -35,7 +35,7 @@ export default function Welcome(){
                  </div>
             )}
              </div>
-             </body>
+             </>
         )
     }
 
