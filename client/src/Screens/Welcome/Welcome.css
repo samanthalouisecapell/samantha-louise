@@ -10,10 +10,9 @@ body{
 
 div.cover{
     width: 50%;
-    background-color: rgba(49, 85, 47, 0.473);
     margin: 0 auto;
     border-radius: 10%;
-    box-shadow: 5px 10px 25px 100px rgba(49, 85, 47, 0.473);
+ 
     z-index: 100;
 }
 
@@ -23,7 +22,7 @@ div.front{
 }
 
 div.front > h1{
-    color: rgb(134, 179, 141);
+    color: rgb(33, 65, 43);
     margin: 25px auto;
     text-align: center;
     font-family: petit formal script;
