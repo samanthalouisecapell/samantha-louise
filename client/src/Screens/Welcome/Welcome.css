@@ -31,15 +31,17 @@ div.front > h1{
 
 
 div.front > button{
+    background-image: url("https://res.cloudinary.com/dkhiieq9p/image/upload/v1611238743/sbt92grll1u24s4ebpba423a85_udd8vp.png");
     display: block;
-    margin: 0 auto;
+    margin: 20% auto;
     border: none;
     width: 150px;
-    background-color: rgba(82, 133, 86, 0.5);
+    background-color: transparent;
     border-radius: 20%;
     height: 60px;
-    font-size: 20px;
-    font-family: roboto;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: raleway;
     transition: all 2s;
 }
 
@@ -60,10 +62,11 @@ div.welcome > h1, div.welcome > p{
 }
 
 img.koru{
+    height: 40%;
     opacity: 0.5;
     position: fixed;
-    top: -5%;
-    right: 20%;
+    top: 35%;
+    right: 40%;
     z-index: -100;
 
     -webkit-animation-name: spin 40s linear infinite;

@@ -16,12 +16,12 @@ export default function Welcome(){
     }
 
         return(<>
-                <img className="koru" src="https://res.cloudinary.com/dkhiieq9p/image/upload/v1611238743/sbt92grll1u24s4ebpba423a85_udd8vp.png"></img>
             <div className="cover">
             {status.pressed === false ? (
                  <div className="front">
                 <h1>Samantha Louise</h1>
-                <button onClick={exploreSam}><Link to="/home" style={{textDecoration: "none", color: "black"}}>Enter</Link></button>
+                <img className="koru" src="https://res.cloudinary.com/dkhiieq9p/image/upload/v1611238743/sbt92grll1u24s4ebpba423a85_udd8vp.png"></img>
+                <button className="koru" onClick={exploreSam}><Link to="/home" style={{textDecoration: "none", color: "#d0e8d8"}}>Enter</Link></button>
                 </div>
             )
             : (
