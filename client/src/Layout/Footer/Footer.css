@@ -29,3 +29,21 @@ img.icon{
     margin-top: -10px;
     height: 75px;
 }
+
+@media (max-width: 425px) {
+
+    nav.footer ul.socials{
+        height: 10%;
+        padding-left: 0;
+    }
+
+    nav.footer ul.socials li{
+        padding: 10px;
+        margin-top: 1%;
+    }
+
+    img.icon{
+        height: 50px;
+    }
+
+}

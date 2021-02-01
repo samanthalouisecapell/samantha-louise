@@ -25,3 +25,21 @@ div.about > p{
     font-size: 20px;
     line-height: 25px;
 }
+
+@media (max-width: 425px) {
+
+    div.about{
+        margin-top: 5%;
+        margin-bottom: 20%;
+    }
+
+    div.about > h2 {
+        font-size: 20px;
+    }
+
+    div.about > p {
+        font-size: 10px;
+        line-height: 12.5px;
+        padding: 10px 50px;
+    }
+}

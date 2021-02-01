@@ -75,3 +75,30 @@ img.koru{
 }
 
 @keyframes spin { 100% {-webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@media (max-width: 425px) {
+
+    div.cover {
+        width: 100%
+    }
+    
+
+    div.front > h1{
+        display: block;
+        width: 100%;
+        margin: 10px auto;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    div.front > button {
+        margin: 55% auto;
+    }
+
+    img.koru{
+        top: 45%;
+        right: 25%;
+    }
+
+}
+
