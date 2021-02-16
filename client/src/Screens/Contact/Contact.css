@@ -4,6 +4,7 @@ div.contact-form{
     width: 40%;
     height: 400px;
     margin: auto;
+    padding-bottom: 1%;
 }
 
 div.contact-form h1{
@@ -36,6 +37,8 @@ input.text-primary.form-control{
 
 div.form-group{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin: 0 auto;
 }
 
@@ -68,7 +71,7 @@ button.btn.btn-secondary:hover{
 
     div.form-group{
         width: 75%;
-        margin: 0;
+        margin: 0 ;
     }
 
     div.contact-form{
