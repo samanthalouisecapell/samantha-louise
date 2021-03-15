@@ -32,6 +32,10 @@ img.icon{
 
 @media (max-width: 425px) {
 
+    nav.footer{
+        width: 100%;
+    }
+
     nav.footer ul.socials{
         height: 10%;
         padding-left: 0;
