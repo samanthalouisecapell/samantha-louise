@@ -85,9 +85,14 @@ button.btn.btn-secondary:hover{
 
     div.contact-form form.form .text-primary{
         width: 400px;
+        padding-right: 40px;
     }
 
     input.text-primary.form-control{
         width: 75%;
+    }
+
+    button.btn.btn-secondary{
+        margin: 5px 150px;
     }
 }
