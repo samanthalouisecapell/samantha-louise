@@ -3,7 +3,7 @@ div.contact-form{
     border-radius: 10%;
     width: 40%;
     height: 400px;
-    margin: auto;
+    margin: 0 auto;
     padding-bottom: 1%;
 }
 
@@ -19,7 +19,7 @@ div.contact-form form.form{
 }
 
 div.contact-form form.form label.text-muted{
-    margin: 15px;
+    margin: 15px 0 15px 15px;
 }
 
 div.contact-form form.form .text-primary{
@@ -95,4 +95,16 @@ button.btn.btn-secondary:hover{
     button.btn.btn-secondary{
         margin: 5px 150px;
     }
+}
+
+
+@media (max-width: 425px) {
+
+    div.form-group{
+        width: 75%;
+        margin: 0 ;
+    }
+
+
+
 }

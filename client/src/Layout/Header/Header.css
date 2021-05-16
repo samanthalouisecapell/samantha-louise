@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
-header{
-    display: block;
-}
+
 
 nav.header{
     display: flex;
@@ -32,6 +30,10 @@ nav.header ul.navigation > li {
     font-size: 20px;
 }
 
+nav.header ul.navigation > li:nth-of-type(4){
+    margin-right: 5px;
+}
+
 @media (max-width: 425px) {
 
     nav.header h1.title{
@@ -42,6 +44,19 @@ nav.header ul.navigation > li {
     nav.header ul.navigation > li{
         font-size: 12.5px;
         padding: 10px;
+    }
+
+}
+
+@media (max-width: 375px){
+    nav.header h1.title{
+        font-size: 15px;
+        margin: 3.5% 6%;
+    }
+
+    nav.header ul.navigation > li{
+        font-size: 12.5px;
+        padding: 5px;
     }
 
 }

@@ -35,7 +35,7 @@ div.front > button{
     display: block;
     margin: 20% auto;
     border: none;
-    width: 150px;
+    width: 95%;
     background-color: transparent;
     border-radius: 20%;
     height: 60px;
@@ -52,7 +52,7 @@ div.front > button:hover{
 div.welcome{
     border-radius: 20%;
     height: 200px;
-    width: 400px;
+    width: 95%;
     margin: 25% auto;
     background-color: rgba(255,255,255,0.2)
 }
@@ -102,3 +102,19 @@ img.koru{
 
 }
 
+@media (max-width: 375px) {
+
+    div.front > h1 {
+        font-size: 25px;
+    }
+
+        img.koru {
+            top: 37.5%;
+            right: 20%;
+        }
+
+        div.welcome{
+
+        }
+
+}
