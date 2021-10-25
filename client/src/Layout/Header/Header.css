@@ -36,14 +36,26 @@ nav.header ul.navigation > li:nth-of-type(4){
 
 @media (max-width: 425px) {
 
+    nav.header > h1.title{
+        margin: 2% 0;
+    }
+
+    nav.header > h1.title > a{
+        font-size: 15px;
+    }
+
     nav.header h1.title{
-        font-size: 20px;
-        margin: 2% 5%;
+        font-size: 15px;
+        margin: 5% 5%;
     }
 
     nav.header ul.navigation > li{
-        font-size: 12.5px;
         padding: 10px;
+    }
+
+    nav.header ul.navigation > li > a{
+        font-size: 15px;
+        padding: 0;
     }
 
 }

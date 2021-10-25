@@ -22,8 +22,8 @@ div.front{
 }
 
 div.front > h1{
-    color: rgb(168, 202, 179);
-    margin: 25px auto;
+    color: rgb(193, 224, 203);
+    margin: 20px auto;
     text-align: center;
     font-family: petit formal script;
     z-index: 100;
@@ -75,6 +75,32 @@ img.koru{
 }
 
 @keyframes spin { 100% {-webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@media (max-width: 768px) {
+
+    div.front > h1{
+        display: block;
+        margin: 0 auto;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    a{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    div.front > button{
+        margin: 70% auto;
+    }
+
+    img.koru{
+        top: 37.5%;
+        right: 30%;
+    }
+
+}
 
 @media (max-width: 425px) {
 

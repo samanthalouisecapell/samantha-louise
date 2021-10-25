@@ -76,7 +76,7 @@ button.btn.btn-secondary:hover{
 
     div.contact-form{
         width: 95%;
-        margin: 0 auto;
+        margin: 10% auto;
     }
 
     div.contact-form h1{
@@ -105,6 +105,16 @@ button.btn.btn-secondary:hover{
         margin: 0 ;
     }
 
-
-
 }
+
+@media (max-width: 768px) {
+
+    div.contact-form{
+        width: 80%;
+    }
+
+    button.btn.btn-secondary{
+        margin: 5px 250px;
+    }
+}
+

@@ -1,16 +1,16 @@
 div.media h1{
     text-align: center;
     font-family: raleway;
-    color: rgb(127, 180, 146);
+    color: rgb(199, 235, 212);
     background-color: rgba(24, 31, 26, 0.5);
-    border-radius: 20%;
-    box-shadow: 10px 10px 10px 5px rgba(24, 31, 26, 0.5);
+    box-shadow: 2px 10px 5px 7.5px rgba(24, 31, 26, 0.5);
     width: 20%;
     margin: 2% auto;
 }
 
 div.youtube-map{
-    margin: 5% auto;
+    color: rgb(199, 235, 212);
+    margin: 7.5% auto;
     height: 85%;
     width: 100%;
     display: flex;
@@ -20,9 +20,10 @@ div.youtube-map{
 }
 
 div.youtube-clip{
-   width: 40%;
+   font-family: raleway;
+   width: 30%;
    margin: 0.5%;
-   background-color: rgba(150, 219, 176, 0.5);
+   background-color: rgba(15, 46, 28, 0.6);
    border-radius: 20%;
    padding: 5px;
    display: flex;
